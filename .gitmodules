@@ -1,0 +1,3 @@
+[submodule "Assets/online_services_systm"]
+	path = Assets/online_services_systm
+	url = https://github.com/MayankDirtcube/online_services_systm.git
