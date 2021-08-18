@@ -29,7 +29,7 @@ public class Coroutines : MonoBehaviour {
 	{	
 		privateCode = Data.properties.lead.privateCode;
 		publicCode = Data.properties.lead.publicCode;
-		StartCoroutine(checkInternetConnection());		
+		//StartCoroutine(checkInternetConnection());		
 	}
 
 	public static void SpawnGun()
@@ -69,7 +69,7 @@ public class Coroutines : MonoBehaviour {
 	IEnumerator RestartScene()
 	{
 		yield return new WaitForSeconds(0.5f);
-		SceneManager.LoadScene("FlipTheGun");	
+		SceneManager.LoadScene("SAMPLESCENE");	
 	}
 
 	IEnumerator EnableGunPhysics() {

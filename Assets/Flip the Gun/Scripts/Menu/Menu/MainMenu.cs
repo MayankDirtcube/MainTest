@@ -6,6 +6,9 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using OnlineService;
+using Doozy.Engine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
@@ -49,13 +52,14 @@ public class MainMenu : MonoBehaviour {
 		for(int i = 0; i < 6; i++)
 			ChallengeMenu.challengeActive[i] = false;
 
-		//If game is launched NOT first time.
-		if(PlayerPrefs.GetInt("StartMenu") == 1)
+		PlayerPrefs.SetInt("StartMenu", 1);
+
+		if (PlayerPrefs.GetInt("StartMenu") == 1)
 		{
 			//Get player username and start game.
 			EscapeGame();
 			username = PlayerPrefs.GetString("Username");
-			fade.GetComponent<Animation>().Play("FadeOut");			
+			fade.GetComponent<Animation>().Play("FadeOut");
 		}
 		//If game is launched  first time.
 		else
@@ -85,7 +89,9 @@ public class MainMenu : MonoBehaviour {
 	public void Play()
 	{
 		//Start game.
-		StartCoroutine(StartGame());
+		//StartCoroutine(StartGame());
+		SceneManager.LoadScene(0);
+		
 	}
 
 	//Start button fly out animation.
@@ -101,7 +107,7 @@ public class MainMenu : MonoBehaviour {
 	}	
 
 	public IEnumerator StartGame()
-	{
+	{ 
 		//If gun can be bought.(Buy gun)
 		if(GunUI.isBuyable)
 		{

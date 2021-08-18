@@ -47,7 +47,7 @@ MonoBehaviour:
     Sprites:
     - m_sprite: {fileID: 21300000, guid: 63f152e38d6ab7d4cadfd4229dac8fe8, type: 3}
       SerializedGuid: 24452c4139183446826e9bd15125d40a
-    - m_sprite: {fileID: 0}
+    - m_sprite: {fileID: 21300000, guid: af330f7fe60ed8e46be2706dbd2cd95f, type: 3}
       SerializedGuid: 4a0af8a62164c5478040171e7027a7d8
     Textures: []
     Fonts:
