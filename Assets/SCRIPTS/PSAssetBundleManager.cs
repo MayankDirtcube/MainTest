@@ -134,7 +134,7 @@ namespace PlayStarz
             {
                 _currentABVersion = GetABVersionNumber();
                 while (!Caching.ready)
-                    yield return null;
+                   
 #if UNITY_IPHONE
                 using(uwr=UnityWebRequestAssetBundle.GetAssetBundle(_assetBundleData[gameIndex]._assetBundleObject.assetBundleURL_ios))
 #endif

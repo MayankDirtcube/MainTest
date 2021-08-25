@@ -39116,20 +39116,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84792858d02304b94aa280601c22d6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  email: {fileID: 788328238}
-  password: {fileID: 20372091}
-  userNameTxt: {fileID: 2002830301}
-  Status: {fileID: 989195635}
+  email: {fileID: 0}
+  password: {fileID: 0}
   Score: {fileID: 0}
   FriendEmail: {fileID: 0}
   LeaderBoardPenal: {fileID: 0}
   LeaderboardDataObject: {fileID: 0}
   FriendsListPanal: {fileID: 0}
   FrindsData: {fileID: 0}
-  ChatPanel: {fileID: 1413376195}
-  chatMessage: {fileID: 1675483272}
-  ChatData: {fileID: 739768717}
-  state: {fileID: 989195635}
+  userNameTxt: {fileID: 0}
   Currency: {fileID: 0}
   Leaderboard: 
 --- !u!1 &2044700733
