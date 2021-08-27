@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1354,7 +1354,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -3022,7 +3022,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134581504}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3031,7 +3031,7 @@ RectTransform:
   - {fileID: 1881970582}
   - {fileID: 2002830299}
   - {fileID: 989195633}
-  m_Father: {fileID: 2004604563}
+  m_Father: {fileID: 1910522175}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4531,7 +4531,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -7117,7 +7117,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -8659,8 +8659,8 @@ Camera:
   m_GameObject: {fileID: 196990771}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -8705,7 +8705,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &216124441
 GameObject:
@@ -9770,7 +9770,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -14893,7 +14893,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -16602,6 +16602,18 @@ PrefabInstance:
     - target: {fileID: 6502567410332732605, guid: 1f84aa9dbad784c65b103966a4b1ea75, type: 3}
       propertyPath: m_Name
       value: OnlineServiceManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502567410332732606, guid: 1f84aa9dbad784c65b103966a4b1ea75, type: 3}
+      propertyPath: Login
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502567410332732606, guid: 1f84aa9dbad784c65b103966a4b1ea75, type: 3}
+      propertyPath: Frinds
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502567410332732606, guid: 1f84aa9dbad784c65b103966a4b1ea75, type: 3}
+      propertyPath: Leaderboard
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6502567410332732607, guid: 1f84aa9dbad784c65b103966a4b1ea75, type: 3}
       propertyPath: m_RootOrder
@@ -20722,7 +20734,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -23515,12 +23527,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101794350}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1406362763}
-  m_Father: {fileID: 2004604563}
+  m_Father: {fileID: 1910522175}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -25237,7 +25249,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -26878,50 +26890,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288914959}
   m_CullTransparentMesh: 1
---- !u!1 &1290019980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1290019982}
-  - component: {fileID: 1290019981}
-  m_Layer: 0
-  m_Name: Popups
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1290019981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290019980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f8e166485fb0347a8cfbcc9e44887e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PopUpName: Popup3
---- !u!4 &1290019982
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290019980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 285.7411, y: 917.1564, z: -61.602722}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1329241235
 GameObject:
   m_ObjectHideFlags: 0
@@ -27097,7 +27065,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1399734460
 GameObject:
@@ -28044,7 +28012,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -30719,7 +30687,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -33171,7 +33139,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -35205,7 +35173,7 @@ Transform:
   m_Children:
   - {fileID: 2096739613}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1772876535
 GameObject:
@@ -37017,7 +36985,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
@@ -38524,6 +38492,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883143076}
   m_CullTransparentMesh: 1
+--- !u!1 &1910522174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910522175}
+  - component: {fileID: 1910522176}
+  m_Layer: 0
+  m_Name: SafAera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1910522175
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910522174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 134581505}
+  - {fileID: 1101794351}
+  m_Father: {fileID: 2004604563}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1910522176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910522174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af15d6cc97fe8e94b8dbf4b2b6db52d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1963609666
 GameObject:
   m_ObjectHideFlags: 0
@@ -38861,10 +38879,10 @@ RectTransform:
   m_Father: {fileID: 134581505}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000007629424, y: 155}
-  m_SizeDelta: {x: 541.4741, y: 115.71}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000007629424, y: -57.85498}
+  m_SizeDelta: {x: 541.4741, y: 115.71002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2002830300
 MonoBehaviour:
@@ -39094,8 +39112,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 134581505}
-  - {fileID: 1101794351}
+  - {fileID: 1910522175}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42518,7 +42535,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1290019981}
+          - m_Target: {fileID: 0}
             m_TargetAssemblyTypeName: test, Assembly-CSharp
             m_MethodName: IsLandscape
             m_Mode: 6
